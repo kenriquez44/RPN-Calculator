@@ -1,0 +1,107 @@
+# Reading C:/intelFPGA/17.1/modelsim_ase/tcl/vsim/pref.tcl
+# do MyComputer_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA/17.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Kevin.E/Google\ Drive/UNI/Year\ 3\ Sem\ 1/Digital\ Sysem\ Design/Project/Project {C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/AuxMod.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:09:41 on May 20,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project" C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/AuxMod.v 
+# -- Compiling module SSeg
+# -- Compiling module Debounce
+# -- Compiling module Disp2cNum
+# -- Compiling module DispDec
+# -- Compiling module DispHex
+# -- Compiling module DetectFallingEdge
+# -- Compiling module Synchroniser
+# 
+# Top level modules:
+# 	Debounce
+# 	Disp2cNum
+# 	DispHex
+# 	DetectFallingEdge
+# End time: 14:09:41 on May 20,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Kevin.E/Google\ Drive/UNI/Year\ 3\ Sem\ 1/Digital\ Sysem\ Design/Project/Project {C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/mycomputer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:09:41 on May 20,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project" C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/mycomputer.v 
+# -- Compiling module MyComputer
+# 
+# Top level modules:
+# 	MyComputer
+# End time: 14:09:41 on May 20,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Kevin.E/Google\ Drive/UNI/Year\ 3\ Sem\ 1/Digital\ Sysem\ Design/Project/Project {C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/ROM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:09:41 on May 20,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project" C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/ROM.v 
+# -- Compiling module AsyncROM
+# 
+# Top level modules:
+# 	AsyncROM
+# End time: 14:09:41 on May 20,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Kevin.E/Google\ Drive/UNI/Year\ 3\ Sem\ 1/Digital\ Sysem\ Design/Project/Project {C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/CPU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:09:41 on May 20,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project" C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/CPU.v 
+# -- Compiling module CPU
+# 
+# Top level modules:
+# 	CPU
+# End time: 14:09:41 on May 20,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Kevin.E/Google\ Drive/UNI/Year\ 3\ Sem\ 1/Digital\ Sysem\ Design/Project/Project {C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/test_mycomputer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:09:41 on May 20,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project" C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/test_mycomputer.v 
+# -- Compiling module test_mycomputer
+# 
+# Top level modules:
+# 	test_mycomputer
+# End time: 14:09:41 on May 20,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  test_mycomputer
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" test_mycomputer 
+# Start time: 14:09:42 on May 20,2018
+# Loading work.test_mycomputer
+# Loading work.MyComputer
+# Loading work.CPU
+# Loading work.Synchroniser
+# Loading work.AsyncROM
+# Loading work.Debounce
+# Loading work.Disp2cNum
+# Loading work.DispDec
+# Loading work.SSeg
+# Loading work.DispHex
+# Loading work.DetectFallingEdge
+# ** Warning: (vsim-3015) C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/AuxMod.v(100): [PCDPC] - Port size (1) does not match connection size (32) for port 'neg'. The port definition is at: C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/AuxMod.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /test_mycomputer/test/disph/sseg1 File: C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/AuxMod.v
+# ** Warning: (vsim-3015) C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/AuxMod.v(100): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/AuxMod.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /test_mycomputer/test/disph/sseg1 File: C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/AuxMod.v
+# ** Warning: (vsim-3015) C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/AuxMod.v(101): [PCDPC] - Port size (1) does not match connection size (32) for port 'neg'. The port definition is at: C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/AuxMod.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /test_mycomputer/test/disph/sseg2 File: C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/AuxMod.v
+# ** Warning: (vsim-3015) C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/AuxMod.v(101): [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/AuxMod.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /test_mycomputer/test/disph/sseg2 File: C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/AuxMod.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/test_mycomputer.v(40)
+#    Time: 60031500 ns  Iteration: 0  Instance: /test_mycomputer
+# Break in Module test_mycomputer at C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/test_mycomputer.v line 40
+# End time: 14:11:25 on May 20,2018, Elapsed time: 0:01:43
+# Errors: 0, Warnings: 4

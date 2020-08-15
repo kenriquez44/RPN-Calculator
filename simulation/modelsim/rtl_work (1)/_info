@@ -1,0 +1,262 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/vaith/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/simulation/modelsim
+vAsyncROM
+Z1 !s110 1526645576
+!i10b 1
+!s100 j2GEEo9UO=35Z02b[US4;3
+IGDZckoTL[8YNh6X1hJnAT0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1526644531
+8C:/Users/vaith/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/ROM.v
+FC:/Users/vaith/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/ROM.v
+L0 5
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1526645576.000000
+!s107 C:/Users/vaith/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/CPU.vh|C:/Users/vaith/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/ROM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/vaith/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project|C:/Users/vaith/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/ROM.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/vaith/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project}
+Z7 tCvgOpt 0
+n@async@r@o@m
+vCPU
+R1
+!i10b 1
+!s100 JT0VZ;b8@;Q6FK:NnSCNP3
+Ih`d>3XEZ9V]f4i:?>IASX3
+R2
+R0
+w1526644614
+8C:/Users/vaith/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/CPU.v
+FC:/Users/vaith/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/CPU.v
+L0 5
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/vaith/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/CPU.vh|C:/Users/vaith/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/CPU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/vaith/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project|C:/Users/vaith/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/CPU.v|
+!i113 1
+R5
+R6
+R7
+n@c@p@u
+vDebounce
+R1
+!i10b 1
+!s100 7]U4K`3;H`W6NJk?g@i?Z1
+I36KcPP5a;CA[?;nSLCH_^2
+R2
+R0
+Z8 w1526637937
+Z9 8C:/Users/vaith/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/AuxMod.v
+Z10 FC:/Users/vaith/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/AuxMod.v
+L0 35
+R3
+r1
+!s85 0
+31
+R4
+Z11 !s107 C:/Users/vaith/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/AuxMod.v|
+Z12 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/vaith/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project|C:/Users/vaith/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/AuxMod.v|
+!i113 1
+R5
+R6
+R7
+n@debounce
+vDetectFallingEdge
+R1
+!i10b 1
+!s100 GO`>zmgLlUOlcX]<5FEL;0
+ITZAQWXcaObm=[zLA[iFTh1
+R2
+R0
+R8
+R9
+R10
+L0 105
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7
+n@detect@falling@edge
+vDisp2cNum
+R1
+!i10b 1
+!s100 _n3zWN6@^=e>`98[o6?3c3
+I_[b`JAb:<=D`DlfN7NSZ@2
+R2
+R0
+R8
+R9
+R10
+L0 67
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7
+n@disp2c@num
+vDispDec
+R1
+!i10b 1
+!s100 4?h@mRRY1889l@Y:]Ifh23
+Ib:O>85j<`LcMA1JmIAUPe0
+R2
+R0
+R8
+R9
+R10
+L0 82
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7
+n@disp@dec
+vDispHex
+R1
+!i10b 1
+!s100 UjTM6YcFQ;lm^zY84W3W`1
+IO3XB@z:@<O>z4Q`6PUNSE2
+R2
+R0
+R8
+R9
+R10
+L0 99
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7
+n@disp@hex
+vMyComputer
+R1
+!i10b 1
+!s100 @PE_OCMdH`:6U8Z>PVBDP1
+IKf9EAG^7P5l2k<LPmm?Uh1
+R2
+R0
+w1526346602
+8C:/Users/vaith/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/mycomputer.v
+FC:/Users/vaith/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/mycomputer.v
+L0 6
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/vaith/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/mycomputer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/vaith/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project|C:/Users/vaith/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/mycomputer.v|
+!i113 1
+R5
+R6
+R7
+n@my@computer
+vSSeg
+R1
+!i10b 1
+!s100 eho;O1;h@9P71@10m5XV:2
+ICLTTO]G]5=;1:]omX954?1
+R2
+R0
+R8
+R9
+R10
+L0 6
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7
+n@s@seg
+vSynchroniser
+R1
+!i10b 1
+!s100 N:WCJUCNJSVozBiAKo@Mf2
+I8:kRNZ8BH1lXoZQ:E@<:?3
+R2
+R0
+R8
+R9
+R10
+L0 122
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7
+n@synchroniser
+vtest_mycomputer
+!s110 1526645577
+!i10b 1
+!s100 nFOI9zSg;?Oeg870=W_Zm1
+I?V1m28C8P:kJh:Qan@40V2
+R2
+R0
+w1526645517
+8C:/Users/vaith/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/test_mycomputer.v
+FC:/Users/vaith/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/test_mycomputer.v
+L0 2
+R3
+r1
+!s85 0
+31
+!s108 1526645577.000000
+!s107 C:/Users/vaith/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/test_mycomputer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/vaith/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project|C:/Users/vaith/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/test_mycomputer.v|
+!i113 1
+R5
+R6
+R7

@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at CPU.v(129): always construct contains both blocking and non-blocking assignments File: C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/CPU.v Line: 129
+Warning (10268): Verilog HDL information at AuxMod.v(43): always construct contains both blocking and non-blocking assignments File: C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/AuxMod.v Line: 43

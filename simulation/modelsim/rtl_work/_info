@@ -1,0 +1,262 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/simulation/modelsim
+vAsyncROM
+Z1 !s110 1526789381
+!i10b 1
+!s100 <`<UY;R^i9^]DmHIRU[^U3
+IQiDGF=@DV:L?bQ>`3A?;B2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1526789373
+8C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/ROM.v
+FC:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/ROM.v
+L0 5
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1526789381.000000
+!s107 C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/CPU.vh|C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/ROM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project|C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/ROM.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work {+incdir+C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project}
+Z7 tCvgOpt 0
+n@async@r@o@m
+vCPU
+R1
+!i10b 1
+!s100 Y0I>5A?Cm2jmQQY@leKe93
+I@i=3IZd^BCC41fPAZ[8=W0
+R2
+R0
+w1526737477
+8C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/CPU.v
+FC:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/CPU.v
+L0 5
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/CPU.vh|C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/CPU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project|C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/CPU.v|
+!i113 1
+R5
+R6
+R7
+n@c@p@u
+vDebounce
+R1
+!i10b 1
+!s100 7]U4K`3;H`W6NJk?g@i?Z1
+I2K[7fC]2J105J=d>nJUcK3
+R2
+R0
+Z8 w1526637937
+Z9 8C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/AuxMod.v
+Z10 FC:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/AuxMod.v
+L0 35
+R3
+r1
+!s85 0
+31
+R4
+Z11 !s107 C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/AuxMod.v|
+Z12 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project|C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/AuxMod.v|
+!i113 1
+R5
+R6
+R7
+n@debounce
+vDetectFallingEdge
+R1
+!i10b 1
+!s100 GO`>zmgLlUOlcX]<5FEL;0
+I55hRRb?1P6BCh[S^T?Vid2
+R2
+R0
+R8
+R9
+R10
+L0 105
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7
+n@detect@falling@edge
+vDisp2cNum
+R1
+!i10b 1
+!s100 _n3zWN6@^=e>`98[o6?3c3
+I90TOH7T6S7H=OkBLS54g00
+R2
+R0
+R8
+R9
+R10
+L0 67
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7
+n@disp2c@num
+vDispDec
+R1
+!i10b 1
+!s100 4?h@mRRY1889l@Y:]Ifh23
+IfEagYJ9>zBlW@m9BWCZoj3
+R2
+R0
+R8
+R9
+R10
+L0 82
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7
+n@disp@dec
+vDispHex
+R1
+!i10b 1
+!s100 UjTM6YcFQ;lm^zY84W3W`1
+I9BO9d3D<mCnzoE4dN:ZaD3
+R2
+R0
+R8
+R9
+R10
+L0 99
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7
+n@disp@hex
+vMyComputer
+R1
+!i10b 1
+!s100 @PE_OCMdH`:6U8Z>PVBDP1
+I5<2J9laMaE7?YH[jol_431
+R2
+R0
+w1526616578
+8C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/mycomputer.v
+FC:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/mycomputer.v
+L0 6
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/mycomputer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project|C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/mycomputer.v|
+!i113 1
+R5
+R6
+R7
+n@my@computer
+vSSeg
+R1
+!i10b 1
+!s100 eho;O1;h@9P71@10m5XV:2
+I?z1z4=TkieL4aDfm91l8o0
+R2
+R0
+R8
+R9
+R10
+L0 6
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7
+n@s@seg
+vSynchroniser
+R1
+!i10b 1
+!s100 N:WCJUCNJSVozBiAKo@Mf2
+InGnDcKjJDBc4h=e2DBX:G3
+R2
+R0
+R8
+R9
+R10
+L0 122
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7
+n@synchroniser
+vtest_mycomputer
+R1
+!i10b 1
+!s100 4]4BgAfP<>^_dV^a_O:`z1
+I_FS@P3ga4MdQ=^kFU27UH1
+R2
+R0
+w1526735008
+8C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/test_mycomputer.v
+FC:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/test_mycomputer.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/test_mycomputer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project|C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/test_mycomputer.v|
+!i113 1
+R5
+R6
+R7

@@ -1,0 +1,11 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/Kevin.E/Google\ Drive/UNI/Year\ 3\ Sem\ 1/Digital\ Sysem\ Design/Project/Project {C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/AuxMod.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Kevin.E/Google\ Drive/UNI/Year\ 3\ Sem\ 1/Digital\ Sysem\ Design/Project/Project {C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/mycomputer.v}
+vlog -vlog01compat -work work +incdir+C:/Users/Kevin.E/Google\ Drive/UNI/Year\ 3\ Sem\ 1/Digital\ Sysem\ Design/Project/Project {C:/Users/Kevin.E/Google Drive/UNI/Year 3 Sem 1/Digital Sysem Design/Project/Project/CPU.v}
+
